@@ -26,16 +26,22 @@
 
     <!--Use the <a> anchor tag to create a link to another webpage
             Your LinkedIN, your Instagram or another page about you-->
-    <a class="humber-link" href="https://learn.humber.ca/ultra/courses/_234112_1/outline">Link to Humber website</a>
+    <div class="card">
+        <h3 style="text-align: center;">I am currently studying in Humber.</h3>
+        <a class="humber-link" href="https://learn.humber.ca/ultra/courses/_234112_1/outline">Link to Humber website</a>
+    </div>
     <!--Use <iframe> to add a Youtube video about yourself or about 
             something that you like-->
-    <div class="video-container">
-        <p>I like listening to rock music.</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/xvDuATZCY8I?si=FVbdgCrrK_KTp6KG"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
+    <div class="card">
+        <div class="video-container">
+            <p style="font-size: 25px;">I like listening to rock music.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/xvDuATZCY8I?si=FVbdgCrrK_KTp6KG"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
     </div>
+
 
     <!--TODO: Add at least THREE new HTML elements that complete your website-->
     <!-- List of hobbies -->
@@ -49,16 +55,22 @@
     </div>
 
     <!-- Map of Toronto -->
-    <p>After graduating, I want to work in Toronto.</p>
-    <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d184551.9097718565!2d-79.54286900938074!3d43.71837095832858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb90d7c63ba5%3A0x323555502ab4c477!2sToronto%2C%20ON!5e0!3m2!1sen!2sca!4v1694922039455!5m2!1sen!2sca"
-        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="card">
+        <p>After graduating, I want to work in Toronto.</p>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d184551.9097718565!2d-79.54286900938074!3d43.71837095832858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb90d7c63ba5%3A0x323555502ab4c477!2sToronto%2C%20ON!5e0!3m2!1sen!2sca!4v1694922039455!5m2!1sen!2sca"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
     <!-- GitHubLink to Automatic Attendance System -->
-    <p>I built an automatic attendance system for my last program's capstone project.</p>
-    <a href="https://github.com/ZenBishalSaroj/automatic_attendance_system">
-        <button>GitHub Project</button>
-    </a>
+    <div class="card">
+        <p>I built an automatic attendance system for my last program's capstone project.</p>
+        <a href="https://github.com/ZenBishalSaroj/automatic_attendance_system">
+            <button>GitHub Project</button>
+        </a>
+    </div>
+
     <!-- List of my skills -->
     <div class="card">
         <p>My Skills:</p>
@@ -82,26 +94,30 @@
             </li>
         </ul>
     </div>
+    <!-- Future plans -->
+    <div class="card">
+        <p><strong>Future plans:</strong> I want to work as a web developer or machine learning engineer.</p>
+    </div>
     <!-- Hometown and Currently Living Section -->
-    <p><strong>Future plans:</strong> I want to work as a web developer or machine learning engineer.</p>
-    <!-- Hometown and Currently Living Section -->
-    <section>
+    <div class="card">
+        <section>
+            <div class="location-container">
+                <h2>Hometown and Currently Living</h2>
+                <!-- Toronto Image -->
+                <div class="location">
+                    <h3>Currently living - Toronto, Canada</h3>
+                    <img src="../assets/toronto.jpg" alt="Toronto Image">
+                </div>
 
-        <div class="location-container">
-            <h2>Hometown and Currently Living</h2>
-            <!-- Toronto Image -->
-            <div class="location">
-                <h3>Currently living - Toronto, Canada</h3>
-                <img src="../assets/toronto.jpg" alt="Toronto Image">
+                <!-- Pokhara Image -->
+                <div class="location">
+                    <h3>Hometown - Pokhara, Nepal</h3>
+                    <img src="../assets/pokhara.jpg" alt="Pokhara Image">
+                </div>
             </div>
+        </section>
+    </div>
 
-            <!-- Pokhara Image -->
-            <div class="location">
-                <h3>Hometown - Pokhara, Nepal</h3>
-                <img src="../assets/pokhara.jpg" alt="Pokhara Image">
-            </div>
-        </div>
-    </section>
     <div class="card">
         <section>
             <h2>Contact Information</h2>
